@@ -294,6 +294,6 @@ const query = (sql, params) => {
 module.exports = query
 ```
 
-## 5. 前端项目访问后端接口
+## 6. 前端项目访问后端接口
 
 具体前端如何配置跨域来访问后端接口，可以查看我创建的前端项目[vue-base-frame](https://github.com/darenone/vue-base-frame)，你可以把[vue-base-server](https://github.com/darenone/vue-base-server)和[vue-base-frame](https://github.com/darenone/vue-base-frame)这两个项目，克隆到你的本地，然后同时启动这两个项目，通过前端页面来实地操作，来了解前后端是如何进行通信的
