@@ -10,8 +10,10 @@ const pool = mysql.createPool({
     password: 'admin',
     port: '3306',
     database: 'test', // 数据库名
-    multipleStatements: true
+    multipleStatements: true,
+    timezone: 'Asia/Shanghai', // 时区设置
 })
+// 更多配置信息可参考此链接 https://blog.csdn.net/iteye_18766/article/details/82638778
 
 const query = (sql, params) => {
     return new Promise((resolve, reject) => {

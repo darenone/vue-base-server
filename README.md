@@ -247,9 +247,9 @@ module.exports = {
 }
 ```
 
-## 5. 创建connect/connjs，mysql连接池，专门执行sql操作
+## 5. 创建connect/conn.js，建立mysql连接池，专门执行sql操作
 
-// 如果你想在本地运行此项目，那么你需要通过Navicat连接你的mysql，并且新建`test`数据库，并且在此数据库下新建表`use_list`
+如果你想在本地运行此项目，那么你需要通过Navicat连接你的mysql，并且新建`test`数据库，并且在此数据库下新建表`use_list`
 
 `connect/conn.js`
 ```js
